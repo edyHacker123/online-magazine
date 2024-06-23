@@ -1,0 +1,76 @@
+{
+  "status": {
+    "logged": true,
+    "username": "test123"
+  },
+  "user": [
+    {
+      "id": "585d",
+      "username": "test123",
+      "password": "Test"
+    },
+    {
+      "id": "0761",
+      "username": "alex123",
+      "password": "Alex"
+    }
+  ],
+  "phones": [
+    {
+      "image": "./images/iphone.png",
+      "title": "Iphone 14",
+      "price": 5500,
+      "stars": 2,
+      "id": "c259"
+    },
+    {
+      "image": "./images/iphone.png",
+      "title": "Iphone 13",
+      "price": 4500,
+      "id": "1acf",
+      "stars":5
+    },
+    {
+      "image": "./images/iphone.png",
+      "title": "Iphone 15",
+      "price": 8500,
+      "id": "9590",
+      "stars":4
+    },
+    {
+      "image": "./images/iphone.png",
+      "title": "Iphone 11",
+      "price": 2000,
+      "id": "c06d",
+      "stars":1
+    },
+    {
+      "image": "./images/iphone.png",
+      "title": "Iphone 14",
+      "price": 5500,
+      "id": "4889",
+      "stars":3
+    },
+    {
+      "image": "./images/iphone.png",
+      "title": "Iphone 14",
+      "price": 5500,
+      "id": "4234",
+      "stars":5
+    },
+    {
+      "image": "./images/iphone.png",
+      "title": "Iphone 5",
+      "price": 1500,
+      "id": "4234",
+      "stars":5
+    },
+    {
+      "image": "./images/iphone.png",
+      "title": "Iphone 5",
+      "price": 1500,
+      "id": "4234",
+      "stars":1
+    }
+  ]
+}

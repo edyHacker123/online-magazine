@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Magazine</title>
+    <link rel="stylesheet" href="./style/index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="./images/logo.png" alt="logo" class="logo" />
+      <div class="avatar-wrapper">
+        <div class="cart-wrapper">
+          <img
+            src="./images/shoppingCart.png"
+            alt="shopping-cart"
+            class="shopping-cart"
+          />
+          <div class="dot">
+            <span class="dot-value"></span>
+          </div>
+        </div>
+
+        <p class="username">Test</p>
+        <button class="log-out">Log Out</button>
+      </div>
+    </header>
+    <main>
+      <h1>Apple store</h1>
+      <div class="main-wrapper">
+        <div class="filter-wrapper">
+          <input type="text" class="name" placeholder="Search by name" />
+          <input
+            type="number"
+            class="input-price"
+            placeholder="Search by price"
+          />
+          <input
+            class="input-rating"
+            type="number"
+            placeholder="Search by rating"
+          />
+          <button class="search-btn">Search</button>
+        </div>
+        <div class="products-wrapper"></div>
+      </div>
+    </main>
+    <footer>
+      <!-- Un mesaj / design unic -->
+    </footer>
+    <div class="modal">
+      <div class="list-wrapper">
+        <div class="order-message-wrapper">
+          <p class="order-message">Your order has been placed</p>
+        </div>
+        <button class="close">x</button>
+        <div class="items-wrapper"></div>
+        <div class="order-wrapper">
+          <button class="order">Place Order</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
